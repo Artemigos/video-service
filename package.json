@@ -1,0 +1,30 @@
+{
+  "name": "video-service",
+  "version": "0.1.0",
+  "description": "A simple video streaming website that I'm writing as a learning excercise.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Artemigos/video-service.git"
+  },
+  "author": "Łukasz Klimek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Artemigos/video-service/issues"
+  },
+  "homepage": "https://github.com/Artemigos/video-service#readme",
+  "dependencies": {
+    "bookshelf": "^0.10.3",
+    "busboy": "^0.2.14",
+    "knex": "^0.12.9",
+    "koa": "^2.2.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.0.0",
+    "koa-router": "^7.2.0",
+    "sqlite3": "^3.1.8"
+  }
+}
